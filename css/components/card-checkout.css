@@ -2,7 +2,7 @@
   width: 250px;
   height: 600px;
   margin: 0 auto;
-  background: url('/checkout-background.png');
+  background: url('../../images/checkout-background.png');
   background-size: cover;
   padding: 40px 48px;
   padding-top: 60px;
