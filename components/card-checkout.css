@@ -1,0 +1,94 @@
+.card-checkout {
+  width: 250px;
+  height: 600px;
+  margin: 0 auto;
+  background: url('/checkout-background.png');
+  background-size: cover;
+  padding: 40px 48px;
+  padding-top: 60px;
+  border-radius: 32px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.food-item {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.food-item img {
+  border-radius: 175px;
+  width: 100%;
+  height: 125px;
+  object-fit: cover;
+}
+
+.food-item h2 {
+  background-color: white;
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 24px;
+  border: 2px solid black;
+  font-size: 1rem;
+  transform: translate(0, 10px);
+}
+
+.checkout-list {
+  font-size: 1.2rem;
+  letter-spacing: -1.2px;
+}
+
+.checkout-list div p {
+  margin: 0;
+}
+
+.checkout-list div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.checkout-order {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.checkout-order p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.checkout-order h2 {
+  font-weight: 900;
+}
+
+.checkout-footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkout-footer p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.checkout-footer h2 {
+  margin: 0;
+  font-weight: 900;
+}
+
+/* ----- CARD BUTTON ----- */
+
+.btn-orange {
+  padding: 16px 24px;
+  background-color: orange;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
